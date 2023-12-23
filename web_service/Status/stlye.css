@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 95vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg,
+            rgba(2, 0, 36, 1) 0%,
+            rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%)
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+header .logo {
+    width: 8.5rem;
+    cursor: pointer;
+    margin-bottom: 1px;
+}
+
+main {
+    width: 100%;
+    padding: 4px 10px;
+    margin: 58px auto auto auto;
+}
+
+main section {
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    width: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 20px;
+}
+
+main .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+main .head {
+    font-size: calc(35% + 0.8vmin);
+    padding: 10px 30px;
+}
+
+main .child1 {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px) saturate(120%);
+    width: 100%;
+    height: auto;
+}
+
+main .container {
+    width: 100%;
+    height: auto;
+}
+
+main .item-1,
+h4 {
+    font-size: calc(40% + 0.8vmin);
+    text-align: center;
+    padding-top: 15px;
+}
+
+main table {
+    margin: 0 auto;
+}
+
+main td {
+    border-collapse: collapse;
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 3px 3px;
+    margin: 3px;
+    text-align: center;
+}
+
+.lift_simulation {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: start;
+    height: auto;
+    max-width: 100%;
+}
+
+.column_arrow_Up {
+    width: 10px;
+    height: auto;
+    background: rgb(255, 255, 255, 0);
+    border: 1px solid rgb(255, 255, 255, 0);
+    border-radius: 10px;
+    margin: 4px 5px 3px 0;
+}
+
+.column_arrow_Down {
+    width: 10px;
+    height: auto;
+    background: rgb(255, 255, 255, 0);
+    border: 1px solid rgb(255, 255, 255, 0);
+    border-radius: 10px;
+    margin: 4px 15px 3px 0;
+}
+
+.column_arrow_UpDown {
+    width: 15px;
+    height: 16px;
+    font-size: 10px;
+    border: 1px solid rgb(255, 255, 255, 0);
+    margin: 10px auto;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.column_arrow_none {
+    width: 15px;
+    height: 16px;
+    font-size: 10px;
+    color: rgb(255, 255, 255, 0);
+    border: 1px solid rgb(255, 255, 255, 0);
+    margin: 10px auto;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.column_liftFloor {
+    width: 60px;
+    height: auto;
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px) saturate(120%);
+    border: 1px solid rgb(255, 255, 255, 0.0);
+    border-radius: 10px;
+    margin: 3px 38px 3px 20px;
+}
+
+.num_liftFloor {
+    display: flex;
+    width: 30px;
+    height: 16px;
+    font-size: 9px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 10px auto;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+
